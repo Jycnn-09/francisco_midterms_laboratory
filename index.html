@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Joyce Ann Francisco portfolio cover section.">
+  <meta name="author" content="Joyce Ann Francisco">
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <title>Joyce Ann Francisco - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="hero" id="top">
+      <div class="bg-scene" aria-hidden="true">
+        <div class="bg-orb orb-one"></div>
+        <div class="bg-orb orb-two"></div>
+        <div class="bg-block block-main"></div>
+        <div class="bg-block block-left"></div>
+        <div class="bg-block block-right"></div>
+        <div class="bg-shadow shadow-one"></div>
+        <div class="bg-shadow shadow-two"></div>
+      </div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <h1 class="hero-title">
+            <span id="typewriterText"></span>
+            <span class="caret" aria-hidden="true"></span>
+          </h1>
+          <p class="eyebrow">JOYCE ANN D. FRANCISCO</p><br>
+          <p class="eyebrow">BSIT 3 - 1</p>
+          <p class="lead">
+            A calm little corner of the internet where you can explore my projects and get to know me better.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#family" class="btn btn-secondary">Get to Know Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="section-nav" aria-label="Section navigation">
+      <div class="container section-nav-inner">
+        <a href="#family">Family</a>
+        <a href="#school">School</a>
+        <a href="#myself">Myself</a>
+        <a href="#journey">Journey</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="content-section family-section" id="family">
+      <div class="container family-layout">
+        <div class="family-copy">
+          <p class="section-kicker">Family</p>
+          <h2>The people who shaped my world first.</h2>
+          <p class="family-lead">
+            Family is where my story begins. They are the first people who taught me love, support, and the quiet strength I carry with me every day.
+          </p>
+          <div class="family-notes">
+            <article class="family-note">
+              <h3>Foundation</h3>
+              <p>Home is where I learned kindness, patience, and the importance of staying grounded.</p>
+            </article>
+            <article class="family-note">
+              <h3>Gratitude</h3>
+              <p>Every memory with them reminds me how much warmth and comfort can live in simple moments.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="family-gallery">
+          <figure class="family-photo family-photo-large">
+            <img src="images/mwt1.jpg" alt="Friends memory 1" width="1200" height="1500" loading="lazy" decoding="async">
+          </figure>
+          <figure class="family-photo">
+            <img src="images/mwt2.jpg" alt="Friends memory 2" width="1200" height="1500" loading="lazy" decoding="async">
+          </figure>
+          <figure class="family-photo">
+            <img src="images/mwt3.jpg" alt="Friends memory 3" width="1200" height="1500" loading="lazy" decoding="async">
+          </figure>
+          <figure class="family-photo family-photo-wide">
+            <img src="images/mwt4.jpg" alt="Friends memory 4" width="1200" height="900" loading="lazy" decoding="async">
+          </figure>
+          <figure class="family-photo">
+            <img src="images/mwt5.jpg" alt="Friends memory 5" width="1200" height="1500" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="content-section school-section" id="school">
+      <div class="container school-layout">
+        <div class="school-top">
+          <div class="school-carousel-shell">
+            <button class="carousel-control carousel-control-prev" id="schoolPrev" type="button" aria-label="Previous school card">&#8249;</button>
+
+            <div class="school-carousel-viewport">
+              <div class="school-carousel-track" id="schoolTrack">
+                <article class="school-card is-active" data-school="elementary" tabindex="0">
+                  <img src="images/elem.jpg" alt="Elementary school memory" width="1200" height="750" loading="lazy" decoding="async">
+                  <div class="school-card-body">
+                    <p class="school-card-label">Chapter 01</p>
+                    <h3>Elementary</h3>
+                    <p>Where curiosity, play, and first lessons began.</p>
+                  </div>
+                </article>
+
+                <article class="school-card" data-school="junior-high" tabindex="0">
+                  <img src="images/juniorhigh.jpg" alt="Junior high school memory" width="1200" height="750" loading="lazy" decoding="async">
+                  <div class="school-card-body">
+                    <p class="school-card-label">Chapter 02</p>
+                    <h3>Junior High</h3>
+                    <p>A season of change, discovery, and confidence.</p>
+                  </div>
+                </article>
+
+                <article class="school-card" data-school="senior-high" tabindex="0">
+                  <img src="images/seniorhigh.jpg" alt="Senior high school memory" width="1200" height="750" loading="lazy" decoding="async">
+                  <div class="school-card-body">
+                    <p class="school-card-label">Chapter 03</p>
+                    <h3>Senior High</h3>
+                    <p>The chapter that prepared me for bigger goals.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <button class="carousel-control carousel-control-next" id="schoolNext" type="button" aria-label="Next school card">&#8250;</button>
+          </div>
+
+          <div class="school-header">
+            <p class="section-kicker">School</p>
+            <h2>School years that shaped how I grew.</h2>
+            <p class="school-lead">
+              Each chapter taught me something different, from curiosity and confidence to preparation for what comes next.
+            </p>
+          </div>
+        </div>
+
+        <div class="school-stories" id="schoolStory">
+          <article class="school-story is-active" data-school="elementary">
+            <div class="school-story-copy">
+              <p class="section-kicker">Chapter 01</p>
+              <h3>Elementary school</h3>
+              <p>Elementary school was where I first learned how exciting it could be to discover new things. It gave me early memories of friendship, curiosity, and the simple joy of learning step by step. It was the stage where small achievements felt big, where every lesson added a little more confidence, and where the people around me helped shape the way I began to see growth, effort, and belonging.</p>
+            </div>
+
+            <figure class="school-story-image">
+              <img src="images/elem.jpg" alt="Elementary school memory" width="1200" height="750" loading="lazy" decoding="async">
+            </figure>
+          </article>
+
+          <article class="school-story" data-school="junior-high">
+            <div class="school-story-copy">
+              <p class="section-kicker">Chapter 02</p>
+              <h3>Junior high school</h3>
+              <p>Junior high was a chapter of change and growth. It taught me how to adjust, build confidence, and understand myself a little more through each new challenge and experience. It was a time of discovering new strengths, handling unfamiliar situations, and learning how much progress can come from showing up even when things feel uncertain at first.</p>
+            </div>
+
+            <figure class="school-story-image">
+              <img src="images/juniorhigh.jpg" alt="Junior high school memory" width="1200" height="750" loading="lazy" decoding="async">
+            </figure>
+          </article>
+
+          <article class="school-story" data-school="senior-high">
+            <div class="school-story-copy">
+              <p class="section-kicker">Chapter 03</p>
+              <h3>Senior high school</h3>
+              <p>Senior high felt like preparation for a bigger future. It was a meaningful season of effort, reflection, and memories that helped shape the direction I want to keep following. More than anything, it made me think seriously about the person I wanted to become, the goals I wanted to chase, and the value of carrying both lessons and memories with me into whatever comes next.</p>
+            </div>
+
+            <figure class="school-story-image">
+              <img src="images/seniorhigh.jpg" alt="Senior high school memory" width="1200" height="750" loading="lazy" decoding="async">
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="content-section myself-section" id="myself">
+      <div class="container family-layout">
+        <div class="family-copy myself-copy">
+          <p class="section-kicker">Myself</p>
+          <h2>A little about who I am.</h2>
+          <p class="family-lead">
+            I was born on September 9, but my birth certificate says the 29th. My mother is Jovelyn Domingo and my father is Elmer Francisco. I love music, arts, and cooking.
+          </p>
+          <div class="family-notes">
+            <article class="family-note">
+              <h3>Birthday story</h3>
+              <p>My date of birth is a small mystery I carry with me every year, a story that always sparks curiosity.</p>
+            </article>
+            <article class="family-note">
+              <h3>Family roots</h3>
+              <p>Being the daughter of Jovelyn Domingo and Elmer Francisco has shaped the values I hold close.</p>
+            </article>
+            <article class="family-note">
+              <h3>Passions</h3>
+              <p>Music, art, and cooking are the ways I express myself, find joy, and keep growing.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="family-gallery">
+          <figure class="family-photo family-photo-large">
+            <img src="images/c1.jpg" alt="Personal memory 1" width="1200" height="1500" loading="lazy" decoding="async">
+          </figure>
+          <figure class="family-photo">
+            <img src="images/c2.jpg" alt="Personal memory 2" width="1200" height="1500" loading="lazy" decoding="async">
+          </figure>
+          <figure class="family-photo">
+            <img src="images/c3.jpg" alt="Personal memory 3" width="1200" height="1500" loading="lazy" decoding="async">
+          </figure>
+          <figure class="family-photo family-photo-wide">
+            <img src="images/c4.jpg" alt="Personal memory 4" width="1200" height="900" loading="lazy" decoding="async">
+          </figure>
+          <figure class="family-photo">
+            <img src="images/c5.jpg" alt="Personal memory 5" width="1200" height="1500" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="content-section journey-section" id="journey">
+      <div class="container">
+        <div class="journey-content">
+          <div class="journey-header">
+            <p class="section-kicker">Journey</p>
+            <h2>How I became who I am.</h2>
+            <p class="journey-intro">
+              Every step of my journey has been guided by the Lord's hand. Through every challenge, every small victory, and every quiet moment of growth, I have felt His presence walking beside me.
+            </p>
+          </div>
+
+          <div class="journey-story">
+            <div class="story-block reveal-fade">
+              <p class="story-text">
+                I was born into a family that taught me early on that love is patient, and home is a safe place to grow. My mother, Jovelyn, and my father, Elmer, showed me through their own lives what it means to work hard, to care deeply, and to never give up. But I knew, even as a child, that there was something greater guiding us—a presence I couldn't name but could always feel.
+              </p>
+            </div>
+
+            <div class="story-block reveal-fade" style="transition-delay: 0.2s;">
+              <p class="story-text">
+                Growing up, I moved through different seasons. Elementary school was a time of pure wonder—I learned that curiosity could open doors. Junior high taught me resilience when things got harder. Senior high showed me that preparation and intention matter. But through each transition, each moment of doubt, each small triumph, I felt God holding the pieces together. He was reminding me that I was never alone.
+              </p>
+            </div>
+
+            <div class="story-block reveal-fade" style="transition-delay: 0.4s;">
+              <p class="story-text">
+                Then I discovered my passions. Music became a language for my soul. Art became a way to understand the world. Cooking became an act of love for the people I care about. These weren't accidents. I see now that God was showing me the ways I could express the gratitude and joy He had placed in my heart. He was preparing me to share my gifts with others.
+              </p>
+            </div>
+
+            <div class="story-block reveal-fade" style="transition-delay: 0.6s;">
+              <p class="story-text">
+                The friends He brought into my life became more than companions—they became mirrors reflecting back the person I was becoming. My family, with all their imperfect love, became my anchor. Every person I've met, every book I've read, every moment of joy and every moment of pain—they were all threads in a tapestry only God could see completely.
+              </p>
+            </div>
+
+            <div class="story-block reveal-fade" style="transition-delay: 0.8s;">
+              <p class="story-text">
+                Now I understand. I am not the author of my story—God is. I am simply learning to trust His pen, to walk confidently even when I can't see the full chapter ahead. Every step I make, He is there. Every decision I face, He guides me. Every dream I hold, He holds it with me. This is the most important truth I've learned: I am never walking alone. The Lord's presence isn't something I have to earn—it's simply there, constant and faithful, in every step I take.
+              </p>
+            </div>
+
+            <div class="story-block story-closing reveal-fade" style="transition-delay: 1s;">
+              <p class="story-text story-emphasis">
+                And so my journey continues, not as a path I forge alone, but as a walk with the One who loves me most. Every tomorrow is an opportunity to trust Him more, to grow closer to Him, and to become a vessel through which His love can flow to others.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-header">
+          <p class="section-kicker">Projects</p>
+          <h2>Work I've created.</h2>
+          <p class="projects-intro">
+            Each project represents a step in my journey of learning and growth, combining technical skills with creativity.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <a href="https://jycnn-09.github.io/Laboratory4/" target="_blank" rel="noopener noreferrer" class="project-card-link">
+            <article class="project-card">
+              <img src="images/calculator project.jpg" alt="Calculator Project Screenshot" class="project-image">
+              <div class="project-body">
+                <h3>Calculator</h3>
+                <p>A functional calculator application built with clean interface and reliable computation. Demonstrates foundational programming logic and user-friendly design.</p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <a href="https://jycnn-09.github.io/Laboratory2/" target="_blank" rel="noopener noreferrer" class="project-card-link">
+            <article class="project-card">
+              <img src="images/Movie list.jpg" alt="Movie List Wireframe Screenshot" class="project-image">
+              <div class="project-body">
+                <h3>Movie List Wireframe</h3>
+                <p>A wireframe design for a movie listing application. Focuses on information architecture and user experience layout planning.</p>
+                <div class="project-tags">
+                  <span class="tag">Wireframe</span>
+                  <span class="tag">UX Design</span>
+                  <span class="tag">Planning</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <a href="https://jycnn-09.github.io/Laboratory3/" target="_blank" rel="noopener noreferrer" class="project-card-link">
+            <article class="project-card">
+              <img src="images/movie styled.jpg" alt="Movie Styled Application Screenshot" class="project-image">
+              <div class="project-body">
+                <h3>Movie Styled</h3>
+                <p>A fully styled movie application with polished visuals and interactive elements. Transforms wireframe concepts into a beautiful, functional interface.</p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">Design</span>
+                </div>
+              </div>
+            </article>
+          </a>
+
+          <article class="project-card project-card-modal" data-modal="submitted-project">
+            <img src="images/project 4.jpg" alt="Project 4 Screenshot" class="project-image">
+            <div class="project-body">
+              <h3>Interactive Dashboard</h3>
+              <p>A comprehensive dashboard interface with data visualization and user management features. Built with modern web technologies for efficient data presentation.</p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Dashboard</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-contact">
+        <h3>Get in Touch</h3>
+        <div class="footer-links">
+          <a href="https://github.com/jycnn-09" target="_blank" rel="noopener noreferrer" class="footer-link">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-5.15-3.44c.15-1.9 2.02-3.29 4.09-3.29a4.6 4.6 0 0 1 4.41 4.77c0 1.93-1.559 3.57-3.35 3.83"></path>
+            </svg>
+            GitHub
+          </a>
+          <a href="https://www.facebook.com/joyceann.francisco.92" target="_blank" rel="noopener noreferrer" class="footer-link">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a6 6 0 0 0-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a2 2 0 0 1 2-2h3z"></path>
+            </svg>
+            Facebook
+          </a>
+          <a href="tel:09926150427" class="footer-link">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            09926150427
+          </a>
+          <a href="mailto:joyceann.francisco@cvsu.edu.ph" class="footer-link">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            Email
+          </a>
+          <a href="resume.pdf" download class="footer-cv-btn">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <path d="M12 13v6"></path>
+              <path d="M9 16h6"></path>
+            </svg>
+            Download CV
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Joyce Ann Francisco. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <p id="modal-message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
